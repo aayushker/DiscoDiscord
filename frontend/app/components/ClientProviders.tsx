@@ -15,6 +15,9 @@ export function ClientProviders({ children }: ClientProvidersProps) {
     const savedScheme = localStorage.getItem('disco-discord-color-scheme');
     if (savedScheme === 'dark' || savedScheme === 'light') {
       setColorScheme(savedScheme);
+    } else {
+      // Set default to dark if no preference is saved
+      setColorScheme('dark');
     }
   }, [setColorScheme]);
 
