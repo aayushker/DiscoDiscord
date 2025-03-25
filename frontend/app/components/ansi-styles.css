@@ -1,0 +1,84 @@
+.ansi-1 { font-weight: 700; text-decoration: none; }
+.ansi-4 { font-weight: 500; text-decoration: underline; }
+
+.ansi-30 { color: #4f545c; }
+.ansi-31 { color: #dc322f; }
+.ansi-32 { color: #859900; }
+.ansi-33 { color: #b58900; }
+.ansi-34 { color: #268bd2; }
+.ansi-35 { color: #d33682; }
+.ansi-36 { color: #2aa198; }
+.ansi-37 { color: #ffffff; }
+
+.ansi-30-bg { background-color: #4f545c; }
+.ansi-31-bg { background-color: #dc322f; }
+.ansi-32-bg { background-color: #859900; }
+.ansi-33-bg { background-color: #b58900; }
+.ansi-34-bg { background-color: #268bd2; }
+.ansi-35-bg { background-color: #d33682; }
+.ansi-36-bg { background-color: #2aa198; }
+.ansi-37-bg { background-color: #ffffff; }
+
+.ansi-40 { background-color: #002b36; }
+.ansi-41 { background-color: #cb4b16; }
+.ansi-42 { background-color: #586e75; }
+.ansi-43 { background-color: #657b83; }
+.ansi-44 { background-color: #839496; }
+.ansi-45 { background-color: #6c71c4; }
+.ansi-46 { background-color: #93a1a1; }
+.ansi-47 { background-color: #fdf6e3; }
+
+/* Editor styles */
+.discord-editor {
+  font-family: monospace;
+  min-height: 200px;
+  white-space: pre-wrap;
+  cursor: text;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  outline: none;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.discord-editor-dark {
+  background-color: var(--mantine-color-dark-6);
+  color: var(--mantine-color-gray-5);
+  border: 1px solid var(--mantine-color-dark-4);
+}
+
+.discord-editor-light {
+  background-color: #f5f5f5;
+  color: #4f545c;
+  border: 1px solid #e5e5e5;
+}
+
+/* Gradient title styles */
+.gradient-title {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+/* Make app full width */
+.mantine-AppShell-main {
+  width: 100%;
+  padding: 0;
+}
+
+.mantine-Container-root {
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .discord-editor {
+    min-height: 150px;
+  }
+} 
